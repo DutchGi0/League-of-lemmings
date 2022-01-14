@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.gamearea{
+    width: 700px;
+    height: 400px;
+    background-image: url("../images/backrgound.png");
+}
+
+.player{
+    position: absolute;
+    top: 200px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/teemo-l.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lemming{
+    position: absolute;
+    left: 630px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/lemmings.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dot {
+    position: absolute;
+    left: 2.75em;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.spells {
+    position:relative;
+}
+
+.fire {
+    position: absolute;
+    background-image: url("../images/fire.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-top: 350px;
+    margin-left: 198px;
+    border-radius: 30% 0 0% 30%;
+    display: inline-block;
+}
+
+ .ice {
+    position: absolute;
+    background-image: url("../images/ice.png");
+    background-size: contain;  
+    background-repeat: no-repeat;  
+    width: 50px;
+    height: 50px;
+    margin-left: 302px;
+    margin-top: 350px;
+    display: inline-block;
+}
+
+.wind {
+    position: absolute;
+    background-image: url("../images/wind.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: 350px;
+    display: inline-block;
+}
+
+.earth {
+    position: absolute;
+    background-image: url("../images/earth.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-left: 355px;
+    margin-top: 350px;
+    display: inline-block;
+    border-radius: 0 30% 30% 0;
+}
